@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RK STUDIO</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background:#f1f2f6;
+}
+
+/* App Container */
+.app{
+    max-width:420px;
+    margin:auto;
+    background:#ffffff;
+    min-height:100vh;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.header{
+    background:#0a3d62;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+.header h1{
+    font-size:22px;
+}
+.header p{
+    font-size:14px;
+}
+
+/* Service Buttons */
+.services{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    padding:20px;
+}
+.service{
+    background:#1e3799;
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 4px 6px rgba(0,0,0,0.2);
+}
+.service span{
+    font-size:30px;
+    display:block;
+}
+.service h3{
+    font-size:16px;
+    margin-top:10px;
+}
+
+/* Product List */
+.section{
+    padding:20px;
+}
+.card{
+    background:#f8f9fa;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Bottom Navigation */
+.bottom-nav{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    max-width:420px;
+    display:flex;
+    background:#1e3799;
+}
+.bottom-nav a{
+    flex:1;
+    text-align:center;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+.bottom-nav span{
+    display:block;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+    <div class="header">
+        <h1>📱 RK STUDIO</h1>
+        <p>কম্পিউটারের সকল কাজ এক জায়গায়</p>
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <span>🖼️</span>
+            <h3>ছবির কাজ</h3>
+        </div>
+        <div class="service">
+            <span>📝</span>
+            <h3>অনলাইন আবেদন</h3>
+        </div>
+        <div class="service">
+            <span>📄</span>
+            <h3>ফটোকপি</h3>
+        </div>
+        <div class="service">
+            <span>📠</span>
+            <h3>স্ক্যান</h3>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>💰 মূল্য তালিকা</h3>
+
+        <div class="card">
+            ছবির কাজ – ৪ পিস <br>
+            <b>৫০ টাকা</b>
+        </div>
+
+        <div class="card">
+            ফটোকপি (প্রতি পৃষ্ঠা) <br>
+            <b>৫ টাকা</b>
+        </div>
+
+        <div class="card">
+            অনলাইন আবেদন <br>
+            <b>১৫০ টাকা</b>
+        </div>
+    </div>
+
+</div>
+
+<div class="bottom-nav">
+    <a href="#"><span>🏠</span>Home</a>
+    <a href="#"><span>📋</span>Service</a>
+    <a href="#"><span>📞</span>Call</a>
+    <a href="#"><span>ℹ️</span>Info</a>
+</div>
+
+</body>
+</html>
